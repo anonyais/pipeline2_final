@@ -9,8 +9,10 @@ download `https://www.kaggle.com/datasets/unanimad/corona-virus-brazil?select=br
 download `https://www.kaggle.com/datasets/unanimad/corona-virus-brazil?select=brazil_covid19.csv`
 
 
-run spark-shell -i pipeline_2_proj.scala 
+run `spark-shell -i pipeline_2_proj.scala` 
 
+
+## Approach Taken
 
 In computing and generating new_brazil_covid19.csv. The two doanloaded files are read into spark. And a temp table was generated. 
 Then, a join was performed to get region from brazil_covid19.csv, so that the structure of the new_brazil_covid19.csv  can match the brazil_covid19.csv.
