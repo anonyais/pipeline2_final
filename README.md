@@ -1,11 +1,12 @@
-# pipeline2_final
+# Spark Pipeline Project
 
+##  How to run
 
-git clone https://github.com/anonyais/pipeline2_final.git
+git clone `https://github.com/anonyais/pipeline2_final.git`
 cd pipeline2_final
 
-download https://www.kaggle.com/datasets/unanimad/corona-virus-brazil?select=brazil_covid19_cities.csv into the working directoty
-download https://www.kaggle.com/datasets/unanimad/corona-virus-brazil?select=brazil_covid19.csv
+download `https://www.kaggle.com/datasets/unanimad/corona-virus-brazil?select=brazil_covid19_cities.csv` into the working directoty
+download `https://www.kaggle.com/datasets/unanimad/corona-virus-brazil?select=brazil_covid19.csv`
 
 
 run spark-shell -i pipeline_2_proj.scala 
